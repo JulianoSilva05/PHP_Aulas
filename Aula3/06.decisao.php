@@ -1,6 +1,6 @@
 <?php
 
-$idade = 17;
+$idade = 19;
 $numeroDePessoas = 2;
 
 
@@ -9,7 +9,7 @@ if ($idade >= 18){//or = ||     and = &&
     echo "Você tem $idade anos." . PHP_EOL; 
     echo "Pode entrar";
 }
-else if($idade >= 16 && $numeroDePessoas > 1){
+elseif($idade >= 16 && $numeroDePessoas > 1){
     echo "Você tem $idade anos, está acompanhado, então pode entrar!";
 }
 else{
