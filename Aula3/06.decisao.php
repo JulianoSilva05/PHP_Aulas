@@ -1,6 +1,6 @@
 <?php
 
-$idade = 18;
+$idade = 16;
 $nome = "Juliano";
 
 echo "Você só pode entrar se tiver mais do que 18 anos ou a partir de 16 anos acompanhado" .PHP_EOL;
